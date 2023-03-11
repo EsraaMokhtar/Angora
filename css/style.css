@@ -1,0 +1,211 @@
+
+.navbar-collapse{
+    flex-grow: initial; 
+}
+.navbar{
+    z-index: 2;
+}
+.nav-item{
+    padding: 0rem  .6rem ;
+}
+.carousel{
+    height: 100vh;
+}
+.outer-next{
+    transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    -moz-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    -o-transform: translateY(100%);
+}
+.carousel-inner h1{
+    font-size: 5rem;
+}
+@media screen and ( max-width:1025px) and (min-width:782px){
+    html{
+        font-size: 12px;
+    }
+}
+@media screen and ( max-width:781px) and (min-width:654px){
+    html{
+        font-size: 10px;
+    }
+    p{
+        font-size: 16px;
+    }
+    h5{
+        font-size: 18px;
+    }
+}
+@media screen and ( max-width:653px) and (min-width:535px){
+    html{
+        font-size: 8px;
+    }
+    p{
+        font-size: 14px;
+    }
+    h5{
+        font-size: 16px;
+    }
+}
+@media screen and ( max-width:534px){
+    html{
+        font-size: 6px;
+    }
+    p{
+        font-size: 11px;
+    }
+    h5{
+        font-size: 14px;
+    }
+}
+.about hr,
+.team hr,
+.services hr,
+.client hr,
+.contact hr{
+    width: 40px;
+    height: 2px;
+    background-color: black;
+    margin: 0 auto;
+    opacity: 1;
+}
+.about h1::before{
+    content: "A";
+    color: rgb(128,128,128,0.2);
+    position:absolute;
+    bottom: -15px;
+    left: 50%;
+    font-size: 5rem;
+    transform: translateX(-50%);
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+}
+.about .progress{
+    height: 3px;
+}
+.about .progress-bar{
+    background-color: red;
+}
+
+
+.team h1::before{
+    content: "O";
+    color: rgb(128,128,128,0.2);
+    position:absolute;
+    bottom: -15px;
+    left: 50%;
+    font-size: 5rem;
+    transform: translateX(-50%);
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+}
+
+.team .inner .image .overlay{
+    background-color: rgba(220,53,69,0.6);
+    opacity: 0;
+    transition:opacity .3s ;
+    -webkit-transition:opacity .3s ;
+    -moz-transition:opacity .3s ;
+    -ms-transition:opacity .3s ;
+    -o-transition:opacity .3s ;
+}
+.team .inner .image img{
+    transition:transform .3s ;
+    -webkit-transition:transform .3s ;
+    -moz-transition:transform .3s ;
+    -ms-transition:transform .3s ;
+    -o-transition:transform .3s ;
+}
+.team .inner:hover img{
+    transform: scale(1.2,1.2);
+    -webkit-transform: scale(1.2,1.2);
+    -moz-transform: scale(1.2,1.2);
+    -ms-transform: scale(1.2,1.2);
+    -o-transform: scale(1.2,1.2);
+}
+.team .inner:hover .overlay{
+    opacity: 1;
+}
+.inner h5{
+    transition: color .3s;
+    -webkit-transition: color .3s;
+    -moz-transition: color .3s;
+    -ms-transition: color .3s;
+    -o-transition: color .3s;
+}
+.team .inner:hover .inner h5{
+  color: #f25454;
+}
+
+.services h1::before{
+    content: "s";
+    color: rgb(128,128,128,0.2);
+    position:absolute;
+    bottom: -15px;
+    left: 50%;
+    font-size: 5rem;
+    transform: translateX(-50%);
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+}
+.client h1::before{
+    content: "c";
+    color: rgb(128,128,128,0.2);
+    position:absolute;
+    bottom: -15px;
+    left: 50%;
+    font-size: 5rem;
+    transform: translateX(-50%);
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+}
+.client img{
+    width: 6rem;
+    transition: width .3s;
+    -webkit-transition: width .3s;
+    -moz-transition: width .3s;
+    -ms-transition: width .3s;
+    -o-transition: width .3s;
+}
+.client .nav-link{
+    opacity: .5;
+}
+.client .quoting-prag{
+    font-size: 1.7rem;
+}
+.nav-pills .nav-link.active{
+    opacity: 1;
+    background-color: transparent;
+}
+.nav-pills .nav-link.active img{
+    width: 7rem;
+}
+.contact h1::before{
+    content: "c";
+    color: rgb(128,128,128,0.2);
+    position:absolute;
+    bottom: -15px;
+    left: 50%;
+    font-size: 5rem;
+    transform: translateX(-50%);
+    -webkit-transform: translatex(-50%);
+    -moz-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    -o-transform: translatex(-50%);
+}
+
+.footer-bage .to-up i{
+    background-color: rgba(220,53,69,0.6);
+}
+.footer-bage{
+    background-color:#3b4650 ;
+}
